@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    margin-bottom: 25px;
+}
+
+
+input[type="email"],
+input[type="tel"] {
+
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.opcoes label {
+    display: inline;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+ a {
+    width: 100px;
+    margin-top: 15px;
+    padding: 16px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+    color: yellow;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+
+}
